@@ -4,8 +4,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #2a2542;
+  color: #953939;
   padding: 10px;
 }
 
@@ -16,9 +16,20 @@ h1 {
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style:square ;
 }
-
-nav li {
+nav li 
   display: inline-block;
   margin
+  .nut-bam {
+    border: none;
+    background-color: aqua;
+    color: white;
+    padding: 30px 35px;
+    cursor: pointer;
+    transition: background 2s;
+}
+.nut-bam:hover{
+    background-color: green;
+    padding: 20px 35px;
+}
